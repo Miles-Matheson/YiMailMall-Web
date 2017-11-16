@@ -1,0 +1,27 @@
+//
+//  WebViewController.h
+//  ylb
+//
+//  Created by gravel on 16/3/15.
+//  Copyright © 2016年 gravel. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
+
+#import <JavaScriptCore/JavaScriptCore.h>
+
+@protocol TestJSExport <JSExport>
+JSExportAs
+(calculateForJS  /** handleFactorialCalculateWithNumber 作为js方法的别名 */,
+ - (void)handleFactorialCalculateWithNumber:(NSNumber *)number
+ );
+- (void)pushViewController:(NSString *)view title:(NSString *)title;
+@end
+
+
+@interface WebViewController :UIViewController
+
+@property (strong, nonatomic) JSContext *context;
++(WebViewController *)loadURLWithString:(NSString *)urlString;
+@end

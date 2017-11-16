@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  YIMaiMall
+//
+//  Created by Miles on 2017/11/13.
+//  Copyright © 2017年 Miles. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//#import "RDVTabBarController.h"
+#import "Header.h"
+#endif /* PrefixHeader_pch */

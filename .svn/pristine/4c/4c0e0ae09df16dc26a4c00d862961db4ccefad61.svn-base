@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6298D898EF20254746C3168B /* Pods_YIMaiMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DCCA809ED9E53AEB2D27BE /* Pods_YIMaiMall.framework */; };
+		6E170F3D1FB9384A00560AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170F3C1FB9384A00560AB0 /* AppDelegate.m */; };
+		6E170F431FB9384A00560AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E170F411FB9384A00560AB0 /* Main.storyboard */; };
+		6E170F451FB9384A00560AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E170F441FB9384A00560AB0 /* Assets.xcassets */; };
+		6E170F481FB9384A00560AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E170F461FB9384A00560AB0 /* LaunchScreen.storyboard */; };
+		6E170F4B1FB9384A00560AB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170F4A1FB9384A00560AB0 /* main.m */; };
+		6E170FA61FB93A2E00560AB0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170F851FB93A2D00560AB0 /* WebViewController.m */; };
+		6E170FBA1FB93A7C00560AB0 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170FB91FB93A7C00560AB0 /* UIColor+expanded.m */; };
+		6E170FDD1FB96E7A00560AB0 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170FD91FB96E7900560AB0 /* CALayer+Transition.m */; };
+		6E170FDE1FB96E7A00560AB0 /* XZMCoreNewFeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E170FDC1FB96E7900560AB0 /* XZMCoreNewFeatureVC.m */; };
+		6E38F0CF1FB9933E002A6A4A /* IHScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38F0CE1FB9933E002A6A4A /* IHScanController.m */; };
+		6E38F0D21FB9E4F1002A6A4A /* OCJSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38F0D01FB9E4F1002A6A4A /* OCJSHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0186631F8EDBB4A749890E64 /* Pods-YIMaiMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YIMaiMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YIMaiMall/Pods-YIMaiMall.debug.xcconfig"; sourceTree = "<group>"; };
+		2FC09C8895953E8097F746DF /* Pods-YIMaiMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YIMaiMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-YIMaiMall/Pods-YIMaiMall.release.xcconfig"; sourceTree = "<group>"; };
+		6E170F381FB9384A00560AB0 /* YIMaiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIMaiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E170F3B1FB9384A00560AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E170F3C1FB9384A00560AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E170F421FB9384A00560AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E170F441FB9384A00560AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E170F471FB9384A00560AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E170F491FB9384A00560AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E170F4A1FB9384A00560AB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E170F841FB93A2D00560AB0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6E170F851FB93A2D00560AB0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6E170FB81FB93A7C00560AB0 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		6E170FB91FB93A7C00560AB0 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		6E170FBB1FB93A9C00560AB0 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		6E170FBC1FB93AD700560AB0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6E170FD81FB96E7900560AB0 /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
+		6E170FD91FB96E7900560AB0 /* CALayer+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Transition.m"; sourceTree = "<group>"; };
+		6E170FDB1FB96E7900560AB0 /* XZMCoreNewFeatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMCoreNewFeatureVC.h; sourceTree = "<group>"; };
+		6E170FDC1FB96E7900560AB0 /* XZMCoreNewFeatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMCoreNewFeatureVC.m; sourceTree = "<group>"; };
+		6E38F0CD1FB9933E002A6A4A /* IHScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHScanController.h; sourceTree = "<group>"; };
+		6E38F0CE1FB9933E002A6A4A /* IHScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHScanController.m; sourceTree = "<group>"; };
+		6E38F0D01FB9E4F1002A6A4A /* OCJSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCJSHelper.m; sourceTree = "<group>"; };
+		6E38F0D11FB9E4F1002A6A4A /* OCJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCJSHelper.h; sourceTree = "<group>"; };
+		79DCCA809ED9E53AEB2D27BE /* Pods_YIMaiMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YIMaiMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E170F351FB9384900560AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6298D898EF20254746C3168B /* Pods_YIMaiMall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E170F2F1FB9384900560AB0 = {
+			isa = PBXGroup;
+			children = (
+				6E170F3A1FB9384A00560AB0 /* YIMaiMall */,
+				6E170F391FB9384A00560AB0 /* Products */,
+				9A4ADF0012B4CBFB73A1E184 /* Pods */,
+				AFAC48EAE6A62923E8F8E454 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E170F391FB9384A00560AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E170F381FB9384A00560AB0 /* YIMaiMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E170F3A1FB9384A00560AB0 /* YIMaiMall */ = {
+			isa = PBXGroup;
+			children = (
+				6E170FD61FB96E7900560AB0 /* Library */,
+				6E170FB71FB93A4400560AB0 /* Class */,
+				6E170F811FB93A2D00560AB0 /* Base */,
+				6E170F861FB93A2D00560AB0 /* Category */,
+				6E170F3B1FB9384A00560AB0 /* AppDelegate.h */,
+				6E170F3C1FB9384A00560AB0 /* AppDelegate.m */,
+				6E170FBC1FB93AD700560AB0 /* PrefixHeader.pch */,
+				6E170FBB1FB93A9C00560AB0 /* Header.h */,
+				6E170F411FB9384A00560AB0 /* Main.storyboard */,
+				6E170F441FB9384A00560AB0 /* Assets.xcassets */,
+				6E170F461FB9384A00560AB0 /* LaunchScreen.storyboard */,
+				6E170F491FB9384A00560AB0 /* Info.plist */,
+				6E170F4A1FB9384A00560AB0 /* main.m */,
+			);
+			path = YIMaiMall;
+			sourceTree = "<group>";
+		};
+		6E170F811FB93A2D00560AB0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6E38F0CD1FB9933E002A6A4A /* IHScanController.h */,
+				6E38F0CE1FB9933E002A6A4A /* IHScanController.m */,
+				6E170F841FB93A2D00560AB0 /* WebViewController.h */,
+				6E170F851FB93A2D00560AB0 /* WebViewController.m */,
+				6E38F0D11FB9E4F1002A6A4A /* OCJSHelper.h */,
+				6E38F0D01FB9E4F1002A6A4A /* OCJSHelper.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6E170F861FB93A2D00560AB0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6E170FB81FB93A7C00560AB0 /* UIColor+expanded.h */,
+				6E170FB91FB93A7C00560AB0 /* UIColor+expanded.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6E170FB71FB93A4400560AB0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6E170FD61FB96E7900560AB0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6E170FD71FB96E7900560AB0 /* ADManager */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6E170FD71FB96E7900560AB0 /* ADManager */ = {
+			isa = PBXGroup;
+			children = (
+				6E170FD81FB96E7900560AB0 /* CALayer+Transition.h */,
+				6E170FD91FB96E7900560AB0 /* CALayer+Transition.m */,
+				6E170FDA1FB96E7900560AB0 /* XHLaunchAd */,
+				6E170FDB1FB96E7900560AB0 /* XZMCoreNewFeatureVC.h */,
+				6E170FDC1FB96E7900560AB0 /* XZMCoreNewFeatureVC.m */,
+			);
+			path = ADManager;
+			sourceTree = "<group>";
+		};
+		6E170FDA1FB96E7900560AB0 /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		9A4ADF0012B4CBFB73A1E184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0186631F8EDBB4A749890E64 /* Pods-YIMaiMall.debug.xcconfig */,
+				2FC09C8895953E8097F746DF /* Pods-YIMaiMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFAC48EAE6A62923E8F8E454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DCCA809ED9E53AEB2D27BE /* Pods_YIMaiMall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E170F371FB9384900560AB0 /* YIMaiMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E170F4E1FB9384A00560AB0 /* Build configuration list for PBXNativeTarget "YIMaiMall" */;
+			buildPhases = (
+				251DC30DF8E1EFC6417224D6 /* [CP] Check Pods Manifest.lock */,
+				6E170F341FB9384900560AB0 /* Sources */,
+				6E170F351FB9384900560AB0 /* Frameworks */,
+				6E170F361FB9384900560AB0 /* Resources */,
+				79358B16B4CDAF4873D217D1 /* [CP] Embed Pods Frameworks */,
+				DC5B5CCF045522F059A55A75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YIMaiMall;
+			productName = YIMaiMall;
+			productReference = 6E170F381FB9384A00560AB0 /* YIMaiMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E170F301FB9384900560AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Miles;
+				TargetAttributes = {
+					6E170F371FB9384900560AB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E170F331FB9384900560AB0 /* Build configuration list for PBXProject "YIMaiMall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6E170F2F1FB9384900560AB0;
+			productRefGroup = 6E170F391FB9384A00560AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E170F371FB9384900560AB0 /* YIMaiMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E170F361FB9384900560AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E170F481FB9384A00560AB0 /* LaunchScreen.storyboard in Resources */,
+				6E170F451FB9384A00560AB0 /* Assets.xcassets in Resources */,
+				6E170F431FB9384A00560AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		251DC30DF8E1EFC6417224D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YIMaiMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79358B16B4CDAF4873D217D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YIMaiMall/Pods-YIMaiMall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LLNetworkEngine/LLNetworkEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/XHLaunchAd/XHLaunchAd.framework",
+				"${BUILT_PRODUCTS_DIR}/ZBarSDK/ZBarSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLNetworkEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XHLaunchAd.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBarSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YIMaiMall/Pods-YIMaiMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5B5CCF045522F059A55A75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YIMaiMall/Pods-YIMaiMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E170F341FB9384900560AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E170FDD1FB96E7A00560AB0 /* CALayer+Transition.m in Sources */,
+				6E170F4B1FB9384A00560AB0 /* main.m in Sources */,
+				6E170FBA1FB93A7C00560AB0 /* UIColor+expanded.m in Sources */,
+				6E170F3D1FB9384A00560AB0 /* AppDelegate.m in Sources */,
+				6E38F0CF1FB9933E002A6A4A /* IHScanController.m in Sources */,
+				6E170FA61FB93A2E00560AB0 /* WebViewController.m in Sources */,
+				6E38F0D21FB9E4F1002A6A4A /* OCJSHelper.m in Sources */,
+				6E170FDE1FB96E7A00560AB0 /* XZMCoreNewFeatureVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E170F411FB9384A00560AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E170F421FB9384A00560AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E170F461FB9384A00560AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E170F471FB9384A00560AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E170F4C1FB9384A00560AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E170F4D1FB9384A00560AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E170F4F1FB9384A00560AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0186631F8EDBB4A749890E64 /* Pods-YIMaiMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4WDYPQV9Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YIMaiMall/PrefixHeader.pch";
+				INFOPLIST_FILE = YIMaiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afanfan.YIMaiMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YiMaiMall/YiMaiMall-Bridging-Header";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E170F501FB9384A00560AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC09C8895953E8097F746DF /* Pods-YIMaiMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4WDYPQV9Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YIMaiMall/PrefixHeader.pch";
+				INFOPLIST_FILE = YIMaiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afanfan.YIMaiMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YiMaiMall/YiMaiMall-Bridging-Header";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E170F331FB9384900560AB0 /* Build configuration list for PBXProject "YIMaiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E170F4C1FB9384A00560AB0 /* Debug */,
+				6E170F4D1FB9384A00560AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E170F4E1FB9384A00560AB0 /* Build configuration list for PBXNativeTarget "YIMaiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E170F4F1FB9384A00560AB0 /* Debug */,
+				6E170F501FB9384A00560AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E170F301FB9384900560AB0 /* Project object */;
+}
